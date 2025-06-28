@@ -32,3 +32,37 @@
         display: none;
     }
 }
+
+@media (min-width: 768px) {
+    .main-services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        /* margin-top: 0.5rem; */
+        padding: 0.5rem;
+    }
+
+    .sec-div { 
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        /* margin-top: 0.5rem; */
+        padding: 0.5rem;
+    }
+
+    .how-it-works section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 0.5rem;
+    }
+    .connect { 
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+        padding: 0.5rem;
+    }
+    
+}
+
